@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-image: url('Banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.atores, .robos, .descricao, .sinopse, .opiniao, .trailer {
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagensInicio {
+    text-align: center;
+    width: 48%;
+}
+
+.imagensInicio img {
+    width: 100%;
+    height: 280px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.atores ul {
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+.atores ul li {
+    margin-bottom: 5px;
+}
+
+.todosRobos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.fotosRobos {
+    text-align: center;
+}
+
+.fotosRobos img {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.fotosRobos p {
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.descricao p, .sinopse p, .opiniao p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botaoYoutube {
+    background-color: #FF0000;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    width: 300px;
+
+}
+
+.botaoYoutube:hover {
+    background-color: #CC0000;
+}
+
+.trailer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
